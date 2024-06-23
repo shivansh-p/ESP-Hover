@@ -68,7 +68,7 @@ I used Platform.io to write, test, and upload my code to the flight controller. 
 ├── PID.cpp -> Contains the PID controller logic.
 ├── ThrustManager.cpp -> Base class for the motor controllers.
 ├── PlusQuadThrustManager.cpp -> Handles motors thrust calculations for + shape motor configurations.
-├── XQuadThrustManager.cpp -> Handles motors thrust calculations for X shape motor configurations.
+├── XQuadThrustManager.cpp -> Handles motors thrust calculations for X-shape motor configurations.
 └── main.cpp -> The main class where all the magic happens.
 ```
 The code has two versions. The first version is controlled using an Android phone that supports BLE (Bluetooth Low Energy). The Android application code can be found in this repository. The latest version allows the drone to be controlled using ROS and a joystick connected to the master computer. The ROS version was very helpful for tuning the PID controller with the help of ROS's plotting feature.
@@ -81,7 +81,5 @@ The code has two versions. The first version is controlled using an Android phon
 ### Drone Code Structure
 
 ### ROS Master Code
-Check this repository for the ROS master code [link].
+Check this repository for the ROS master code [[ROS master code](https://github.com/EngAhmed53/ESP-Hover-ROS-Master)]. 
 
-## License
-[Specify the license under which the project is released.]
