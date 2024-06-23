@@ -70,10 +70,9 @@ I used Platform.io to write, test, and upload my code to the flight controller. 
 ├── PlusQuadThrustManager.cpp -> Handles motors thrust calculations for + shape motor configurations.
 ├── XQuadThrustManager.cpp -> Handles motors thrust calculations for X shape motor configurations.
 └── main.cpp -> The main class where all the magic happens.
-
+```
 The code has two versions. The first version is controlled using an Android phone that supports BLE (Bluetooth Low Energy). The Android application code can be found in this repository. The latest version allows the drone to be controlled using ROS and a joystick connected to the master computer. The ROS version was very helpful for tuning the PID controller with the help of ROS's plotting feature.
 
-```plaintext
 ### Libraries Used
 1. **MegunoLink**: Contains useful functions and helper classes such as ExponentialFilter.
 2. **Rosserial Arduino Library**: Used to establish a connection with the ROS master.
