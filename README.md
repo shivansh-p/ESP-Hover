@@ -35,7 +35,7 @@ Learning about UAVs, aerial robotics, and understanding quadcopter dynamics has 
 ### The Frame
 The frame is 3D printed and designed using SolidWorks. It consists of two main parts. The main part holds the flight controllers and the four motors, while the upper part holds the battery. The flight controller is designed to support two shapes of the frame: the X shape and the + shape.
 
-<p align="center"  width="100%>
+<p align="center"  width="100%">
   <figure>
     <img src="images/plus-shape.jpg" alt="Plus Shape" width="300" />
     <figcaption>Plus Shape</figcaption>
