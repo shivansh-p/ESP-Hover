@@ -17,7 +17,7 @@
 
 ## Overview
 ESP-Hover is a drone/quadcopter based on the ESP32 microcontroller. This drone is equipped with a 9-DOF IMU and can be controlled using an Android phone that supports BLE or ROS.
-Check this [Youtube video](https://youtu.be/9da7e51ovig) for a quick demo.
+Check this [YouTube video](https://youtu.be/VLzEslCXihU) for a quick demo.
 
 <p align="center" width="100%">
     <img src="images/ESP-Hover-drone.jpg" alt="Drone" width="400">
