@@ -63,8 +63,8 @@ To design this flight controller (FC), I had to learn about PCB design, circuit 
 
 <p align="center">
   <figure style="display: inline-block;">
-    <img src="images//FC-1.jpg" alt="FC-1" width="300" />
-    <figcaption>Flight Controller 1</figcaption>
+    <img src="images/FC-1.jpg" alt="FC-1" width="300" />
+    <br>Flight Controller
   </figure>
   <figure style="display: inline-block;">
     <img src="images/FC-2.jpg" alt="FC-2 " width="300" />
