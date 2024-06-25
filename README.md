@@ -35,26 +35,14 @@ Learning about UAVs, aerial robotics, and understanding quadcopter dynamics has 
 ### The Frame
 The frame is 3D printed and designed using SolidWorks. It consists of two main parts. The main part holds the flight controllers and the four motors, while the upper part holds the battery. The flight controller is designed to support two shapes of the frame: the X shape and the + shape.
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <figure style="text-align: center;">
-    <img src="images/plus-shape.jpg" alt="Image 1" style="width: 300px;" />
-    <figcaption>Caption for Image 1</figcaption>
-  </figure>
-  <figure style="text-align: center;">
-    <img src "images/x-shape.jpg" alt="Image 2" style="width: 300px;" />
-    <figcaption>Caption for Image 2</figcaption>
-  </figure>
-</div>
+<p align="center" width="100%">
+    <img src="images/plus-shape.jpg" alt="plus-shape" width="300">
+    <br>Plus Shape
+</p>
 
-<p align="center"  width="100%">
-  <figure>
-    <img src="images/plus-shape.jpg" alt="Plus Shape" width="300" />
-    <figcaption>Plus Shape</figcaption>
-  </figure>
-  <figure>
-    <img src="images/x-shape.jpg" alt="X-Shape" width="300" />
-    <figcaption>X Shape</figcaption>
-  </figure>
+<p align="center" width="100%">
+    <img src="images/x-shape.jpg" alt="x-shape" width="300">
+    <br>X-Shape
 </p>
 
 ### The Flight Controller
@@ -72,20 +60,22 @@ To design this flight controller (FC), I had to learn about PCB design, circuit 
 
 - **4 vibration dampers**: Protect the flight controller from motor vibrations.
 
-<p align="center">
-  <figure style="display: inline-block;">
-    <img src="images/FC-1.jpg" alt="FC-1" width="300" />
-    <br>Flight Controller
-  </figure>
-  <figure style="display: inline-block;">
-    <img src="images/FC-2.jpg" alt="FC-2 " width="300" />
-    <figcaption>Flight Controller 2</figcaption>
-  </figure>
-   <figure style="display: inline-block;;">
-    <img src="images/FC-PCB.png" alt="FC-3" width="300" />
-    <figcaption>PCB Design</figcaption>
-  </figure>
+
+<p align="center" width="100%">
+    <img src="images/FC-1.jpg" alt="FC-1" width="300">
 </p>
+
+
+<p align="center" width="100%">
+    <img src="images/FC-2.jpg" alt="FC-2" width="300">
+</p>
+
+
+<p align="center" width="100%">
+    <img src="images/FC-PCB.png" alt="FC-1" width="300">
+    <br>PCB Design
+</p>
+
 
 ### Motors and Propellers
 The motors are 8x20mm brushless, and the propellers are 65mm in size. This combination provides a total thrust of 40 grams per motor, totalling 160 grams. The drone weighs 80 grams, resulting in a thrust-to-weight ratio of 2:1. This ratio could be improved by reducing the drone's weight.
