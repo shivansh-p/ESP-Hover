@@ -37,11 +37,11 @@ The frame is 3D printed and designed using SolidWorks. It consists of two main p
 
 <p align="center"  width="100%>
   <figure style="display: inline-block;">
-    <img src="images/plus-shape.jpg" alt="Plus Shape" width="500" />
+    <img src="images/plus-shape.jpg" alt="Plus Shape" width="300" />
     <figcaption>Plus Shape</figcaption>
   </figure>
   <figure style="display: inline-block;">
-    <img src="images/x-shape.jpg" alt="X-Shape" width="500" />
+    <img src="images/x-shape.jpg" alt="X-Shape" width="300" />
     <figcaption>X Shape</figcaption>
   </figure>
 </p>
