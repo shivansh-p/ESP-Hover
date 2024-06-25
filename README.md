@@ -16,10 +16,15 @@
 6. [License](#license)
 
 ## Overview
-ESP-Hover is a drone/quadcopter based on the ESP32 microcontroller. This drone is equipped with a 9-DOF IMU and can be controlled using an Android phone that supports BLE or using ROS.
+ESP-Hover is a drone/quadcopter based on the ESP32 microcontroller. This drone is equipped with a 9-DOF IMU and can be controlled using an Android phone that supports BLE or ROS.
+
+<p align="center" width="100%">
+    <img src="images/ESP-Hover-drone.jpg" alt="Drone" width="500">
+    <br>ESP-Hover
+</p>
 
 ## Motivation
-Learning about UAVs and aerial robotics, and understanding quadcopter dynamics has always been my passion. I found this project to be a great opportunity to learn more about flight controllers and to build my own. Furthermore, this project was a chance to apply what I learned from the following courses:
+Learning about UAVs, aerial robotics, and understanding quadcopter dynamics has always been my passion. This project was a great opportunity to learn more about flight controllers and to build my own. Furthermore, this project was a chance to apply what I learned from the following courses:
 1. Coursera Introduction to IoT Specialization
 2. C++ Nanodegree from Udacity
 3. Robotics Nanodegree from Udacity
@@ -28,7 +33,23 @@ Learning about UAVs and aerial robotics, and understanding quadcopter dynamics h
 ## Design Details
 
 ### The Frame
-The frame is 3D printed and designed using SolidWorks. It consists of two main parts. The main part holds the flight controllers and the four motors, while the upper part holds the battery. The flight controller is designed to support two shapes of the frame: the X shape and the + shape. The SolidWorks files can be found in the frame folder.
+The frame is 3D printed and designed using SolidWorks. It consists of two main parts. The main part holds the flight controllers and the four motors, while the upper part holds the battery. The flight controller is designed to support two shapes of the frame: the X shape and the + shape.
+
+<p align="center">
+  <img src="path/to/plus-shape.jpg" alt="Image 1" width="45%" />
+  <img src="path/to/x-shape.jpg" alt="Image 2" width="45%" />
+</p>
+
+<p align="center">
+  <figure style="display: inline-block; margin: 10px;">
+    <img src="path/to/plus-shape.jpg" alt="Image 1" width="45%" />
+    <figcaption>Plus Shape</figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px;">
+    <img src="path/to/x-shape.jpg" alt="Image 2" width="45%" />
+    <figcaption>X Shape</figcaption>
+  </figure>
+</p>
 
 ### The Flight Controller
 To design this flight controller (FC), I had to learn about PCB design, circuit design, and electronic components. The FC board is a two-layer PCB and contains the basic components necessary for the drone to fly. It includes the following components:
@@ -45,10 +66,23 @@ To design this flight controller (FC), I had to learn about PCB design, circuit 
 
 - **4 vibration dampers**: Protect the flight controller from motor vibrations.
 
-The board schematics can be found in the schematics folder.
+<p align="center">
+  <figure style="display: inline-block; margin: 10px;">
+    <img src="path/to/FC-1.jpg" alt="FC-1" width="45%" />
+    <figcaption>Flight Controller 1</figcaption>
+  </figure>
+  <figure style="display: inline-block; margin: 10px;">
+    <img src="path/to/FC-2.jpg" alt="FC-2 " width="45%" />
+    <figcaption>Flight Controller 2</figcaption>
+  </figure>
+   <figure style="display: inline-block; margin: 10px;">
+    <img src="path/to/FC-PCB.png" alt="FC-3" width="45%" />
+    <figcaption>PCB Design</figcaption>
+  </figure>
+</p>
 
 ### Motors and Propellers
-The motors are 8x20mm brushless motors, and the propellers are 65mm in size. This combination provides a total thrust of 40 grams per motor, totaling 160 grams. The drone weighs 80 grams, resulting in a thrust-to-weight ratio of 2:1. This ratio could be improved by reducing the drone's weight.
+The motors are 8x20mm brushless, and the propellers are 65mm in size. This combination provides a total thrust of 40 grams per motor, totalling 160 grams. The drone weighs 80 grams, resulting in a thrust-to-weight ratio of 2:1. This ratio could be improved by reducing the drone's weight.
 
 ### Battery
 The battery capacity is 600mAh with a 50C discharge rate. This battery can provide a total of about 24 Amps, which is more than enough to power the motors and the flight controller.
@@ -81,5 +115,7 @@ The code has two versions. The first version is controlled using an Android phon
 ### Drone Code Structure
 
 ### ROS Master Code
-Check this repository for the ROS master code [[ROS master code](https://github.com/EngAhmed53/ESP-Hover-ROS-Master)]. 
+Check this repository for the [ROS master source code](https://github.com/EngAhmed53/ESP-Hover-ROS-Master). 
 
+## License
+This project is licensed under the [MIT License](LICENSE).
