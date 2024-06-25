@@ -36,31 +36,31 @@ Learning about UAVs, aerial robotics, and understanding quadcopter dynamics has 
 The frame is 3D printed and designed using SolidWorks. It consists of two main parts. The main part holds the flight controllers and the four motors, while the upper part holds the battery. The flight controller is designed to support two shapes of the frame: the X shape and the + shape.
 
 <p align="center">
-  <img src="path/to/plus-shape.jpg" alt="Image 1" width="45%" />
-  <img src="path/to/x-shape.jpg" alt="Image 2" width="45%" />
+  <img src="images/plus-shape.jpg" alt="Image 1" width="45%" />
+  <img src="images/x-shape.jpg" alt="Image 2" width="45%" />
 </p>
 
 <p align="center">
   <figure style="display: inline-block; margin: 10px;">
-    <img src="path/to/plus-shape.jpg" alt="Image 1" width="45%" />
+    <img src="images/plus-shape.jpg" alt="Plus Shape" width="45%" />
     <figcaption>Plus Shape</figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px;">
-    <img src="path/to/x-shape.jpg" alt="Image 2" width="45%" />
+    <img src="images/x-shape.jpg" alt="X-Shape" width="45%" />
     <figcaption>X Shape</figcaption>
   </figure>
 </p>
 
 ### The Flight Controller
-To design this flight controller (FC), I had to learn about PCB design, circuit design, and electronic components. The FC board is a two-layer PCB and contains the basic components necessary for the drone to fly. It includes the following components:
+To design this flight controller (FC), I had to learn about PCB design, circuit design, and electronic components. The FC board is a two-layer PCB and contains the basic elements necessary for the drone to fly. It includes the following elements:
 
-- **ESP32 microcontroller**: I chose this microcontroller because it supports WiFi, classic Bluetooth, and BLE, providing a variety of connection options. Additionally, it has two cores, allowing me to handle communication on one core and the flying PID loop on the other. The core logic handling is managed using FreeRTOS.
+- **ESP32 microcontroller**: I chose this microcontroller because it supports WiFi, classic Bluetooth, and BLE, providing various connection options. Additionally, it has two cores, allowing me to handle communication on one core and the flying PID loop on the other. The core logic handling is managed using FreeRTOS.
   
 - **MPU9250**: This 9-DOF IMU contains a gyroscope, accelerometer, and magnetometer.
 
 - **3.3V to 5V boost converter**: Used to power the ESP32 and the IMU.
 
-- **6 Logic MOSFETs**: Used to control the motor speeds.
+- **6 Logic MOSFETs**: "IRLML2502" MOSFETs used to control the motor speeds.
 
 - **Motor connectors and capacitors**: Essential for connecting and stabilizing the motors.
 
@@ -68,15 +68,15 @@ To design this flight controller (FC), I had to learn about PCB design, circuit 
 
 <p align="center">
   <figure style="display: inline-block; margin: 10px;">
-    <img src="path/to/FC-1.jpg" alt="FC-1" width="45%" />
+    <img src="images//FC-1.jpg" alt="FC-1" width="45%" />
     <figcaption>Flight Controller 1</figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px;">
-    <img src="path/to/FC-2.jpg" alt="FC-2 " width="45%" />
+    <img src="images/FC-2.jpg" alt="FC-2 " width="45%" />
     <figcaption>Flight Controller 2</figcaption>
   </figure>
    <figure style="display: inline-block; margin: 10px;">
-    <img src="path/to/FC-PCB.png" alt="FC-3" width="45%" />
+    <img src="images/FC-PCB.png" alt="FC-3" width="45%" />
     <figcaption>PCB Design</figcaption>
   </figure>
 </p>
