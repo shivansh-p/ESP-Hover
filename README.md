@@ -36,17 +36,12 @@ Learning about UAVs, aerial robotics, and understanding quadcopter dynamics has 
 The frame is 3D printed and designed using SolidWorks. It consists of two main parts. The main part holds the flight controllers and the four motors, while the upper part holds the battery. The flight controller is designed to support two shapes of the frame: the X shape and the + shape.
 
 <p align="center">
-  <img src="images/plus-shape.jpg" alt="Image 1" width="45%" />
-  <img src="images/x-shape.jpg" alt="Image 2" width="45%" />
-</p>
-
-<p align="center">
   <figure style="display: inline-block; margin: 10px;">
-    <img src="images/plus-shape.jpg" alt="Plus Shape" width="45%" />
+    <img src="images/plus-shape.jpg" alt="Plus Shape" width="500" />
     <figcaption>Plus Shape</figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px;">
-    <img src="images/x-shape.jpg" alt="X-Shape" width="45%" />
+    <img src="images/x-shape.jpg" alt="X-Shape" width="500" />
     <figcaption>X Shape</figcaption>
   </figure>
 </p>
@@ -68,15 +63,15 @@ To design this flight controller (FC), I had to learn about PCB design, circuit 
 
 <p align="center">
   <figure style="display: inline-block; margin: 10px;">
-    <img src="images//FC-1.jpg" alt="FC-1" width="45%" />
+    <img src="images//FC-1.jpg" alt="FC-1" width="300" />
     <figcaption>Flight Controller 1</figcaption>
   </figure>
   <figure style="display: inline-block; margin: 10px;">
-    <img src="images/FC-2.jpg" alt="FC-2 " width="45%" />
+    <img src="images/FC-2.jpg" alt="FC-2 " width="300" />
     <figcaption>Flight Controller 2</figcaption>
   </figure>
    <figure style="display: inline-block; margin: 10px;">
-    <img src="images/FC-PCB.png" alt="FC-3" width="45%" />
+    <img src="images/FC-PCB.png" alt="FC-3" width="300" />
     <figcaption>PCB Design</figcaption>
   </figure>
 </p>
